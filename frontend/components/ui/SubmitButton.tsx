@@ -21,7 +21,7 @@ export default function SubmitButton({ children, pendingText, variant = "primary
       type="submit"
       disabled={pending}
       aria-busy={pending}
-      className={`flex w-full items-center justify-center gap-2 rounded-lg px-4 py-3 text-sm font-semibold tracking-wide transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-snow disabled:cursor-not-allowed disabled:opacity-60 ${style}`}
+      className={`flex w-full items-center justify-center gap-2 rounded-lg px-4 py-5 text-sm font-semibold tracking-wide transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-snow disabled:cursor-not-allowed disabled:opacity-60 ${style}`}
     >
       {pending && (
         <span
